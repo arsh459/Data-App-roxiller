@@ -1,5 +1,5 @@
 import axios from "axios"
-const url = "http://localhost:8000/api"
+const url = "https://thankful-ant-scrubs.cyclic.app/api"
 
 const getTransactions = async (search, month, page) => {
   let response = await axios.get(

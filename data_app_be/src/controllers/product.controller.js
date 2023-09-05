@@ -3,7 +3,7 @@ const ProductTransaction = require("../models/product.model")
 const { dateManipulation, saleOfMonth } = require("../utils/product.util")
 const dotenv = require("dotenv")
 dotenv.config()
-const url = "http://localhost:8000/api"
+const url = "https://thankful-ant-scrubs.cyclic.app/api"
 
 const initializeDatabase = async (req, res) => {
   try {
